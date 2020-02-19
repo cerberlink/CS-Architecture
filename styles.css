@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 550px;
+	margin: 0 auto;
+	padding: 1em;
+	background: #a9a8a9;
+}
+
+section {
+	background-color: white;
+}
+
+legend {
+	margin: 0;
+	padding: 0.25em;
+	font-size: 170%;
+	color: #d00e2c;
+}
+
+img {
+	float: left;
+	margin: 0 1em 1 em 1em;
+}
+
+p {
+	margin: 0;
+	padding-bottom: 0.5em;
+}
+
+/*
+ TODO: need to make a little grey background in the input text.
+type["text" name="firstname"]{
+  background:#A9A8A9;;
+}
+type["text" name="lastname"]{
+  background:#FAFAFA;
+}
+
+*/
+
+input[type="submit"] {
+	padding: 5px 20px;
+	background: #fafafa;
+	cursor: pointer;
+	-webkit-appearance: button;
+	border-radius: 10px;
+}

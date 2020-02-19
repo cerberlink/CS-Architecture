@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>CS Architecture</title>
+	<link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+	<section class="info">
+		<form method="post" action="connect.php">
+			<fieldset>
+				<legend>Add an Employee</legend>
+				<label for="firstname">First name:</label><br />
+				<input type="text" name="firstname" id="firstname" autofocus accesskey="F" required
+					tabindex="0" /><br />
+				<label for="lastname">Last name:</label><br />
+				<input type="text" name="lastname" id="lastname" accesskey="L" tabindex="1" /><br />
+				<label for="department">Department</label><br />
+				<select id="department" name="department">
+					<option value="it">IT</option>
+					<option value="tech">Technical</option>
+					<option value="account">Account</option>
+					<option value="faculty">Faculty</option>
+					<option value="engineers">Engineer</option>
+					<option value="auto">AutoShop</option>
+				</select>
+				<div>
+					<input type="submit" />
+				</div>
+				<h1>Employee Added</h1>
+				<section>
+					<h4>Name:</h4>
+					<h4>Department:</h4>
+					<h4>Employee ID:</h4>
+					<h4>Hire Date:</h4>
+					<h4>Total Employee:</h4>
+				</section>
+			</fieldset>
+		</form>
+	</section>
+	<!-- use the script.js because we need to add the array to generate (8 digit) unique ID 
+            store them in the backend server.
+            on line 12 below the link is localhost.
+            https://aws.amazon.com
+			http://localhost:8080/dashboard/
+			id="theForm"
+		-->
+	<script>
+		"./script.js"
+	</script>
+</body>
+
+</html>
