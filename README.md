@@ -20,3 +20,5 @@ The URL for downloading [XAMPP](https://www.apachefriends.org/index.html)
   - Take the HTML, CSS, and JavaScript or PHP from your completed work in your GitHub repository and upload them to you’re a public accessible website.
   - Submit the URL of your GitHub repository where your working code can be found.
   - Submit the URL of your publicly accessible website.
+
+![Playground](playground.png)
