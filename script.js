@@ -100,6 +100,7 @@ window.onload = init;
 // END  make the json file from user's input
 
 // get the url http
+// !!! below snippet code, I need to set up the server from xampp's service
 let requestURL = ""; //TODO need the link for json!!
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
