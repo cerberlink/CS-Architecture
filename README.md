@@ -21,4 +21,4 @@ The URL for downloading [XAMPP](https://www.apachefriends.org/index.html)
   - Submit the URL of your GitHub repository where your working code can be found.
   - Submit the URL of your publicly accessible website.
 
-![Playground](playground.png)
+![playground](Playground.png)
